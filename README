@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=362
+
+The opsplorer script is intended to be an alternative to the file-explorer
+plugin that comes with the vim package. It's got a tree structure (you can
+also quickly change the tree root path) and is designed to be as compact as
+possible.
+
+For detailed description, see :help opsplorer.txt
+
+Have fun :-)
