@@ -31,9 +31,9 @@ Start explorer with: >
 This splits the current buffer vertically and draws the tree with the given
 directory as root. When no directory is given, browsing starts in the
 current directory.
-							*opspl_<F11>*
+							*opspl_<F10>*
 As alternative, you can use the ToggleShowExplorer command which is bound
-to <F11> by default (see |opsplorer_options|, it's the only global binding
+to <F10> by default (see |opsplorer_options|, it's the only global binding
 made by the script).
 
 However, you should see then a new buffer window with the base path (which
@@ -89,10 +89,10 @@ last active buffer. If 'close_explorer_after_open' is set, the opsplorer
 buffer will additionally be closed (see |opsplorer_options| below).
 							*opspl_<CR>*
 Pressing Return on a file opens the file in the last active buffer and
-closes the opsplorer buffer.
+keeps the opsplorer buffer open.
 							*opspl_<Space>*
 Pressing Space on a file opens the file in the last active buffer and
-keeps the opsplorer buffer open.
+closes the opsplorer buffer.
 							*opspl_p*
 If you want to insert the content of the selected file in the active buffer,
 move to place where to insert, select the file in opsplorer and press the
